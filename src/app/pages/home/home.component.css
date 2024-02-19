@@ -5,8 +5,18 @@
 }
 
 .articles {
-  margin-top: 3rem;
   gap: 2rem;
   display: flex;
   justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.articles .articles_main{
+  width: 60%;
+
+}
+
+.articles .articles_others{
+  width: 40%;
 }
