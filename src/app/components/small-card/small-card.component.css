@@ -1,0 +1,30 @@
+.container_small-card {
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_small-card > .article-top {
+  display: flex;
+  gap: 2rem;
+}
+
+.container_small-card > .article-top > a > .photo_small-card {
+  width: 20rem;
+  height: 100%;
+  border-radius: 1.5rem;
+}
+
+.container_small-card > .article-top > a > .title_small-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container_small-card > .article-top > a > .description-photo_small-card {
+  color: gray;
+}
+
+.container_small-card > .article-bottom > hr {
+  margin: 3rem 0;
+}
