@@ -1,9 +1,9 @@
 <div class="container_small-card">
   <article class="article-top">
-    <a href="#">
+    <a [routerLink]="['content', Id]">
       <img class="photo_small-card" src="{{ photoCover }}" alt="">
     </a>
-    <a href="#">
+    <a [routerLink]="['content', Id]">
       <p class="description-photo_small-card">{{ descriptionPhoto }}</p>
       <h2 class="title_small-card">{{ cardTitle }}</h2>
     </a>
