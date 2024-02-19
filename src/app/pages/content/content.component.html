@@ -1,12 +1,29 @@
 <div class="container_content">
-  <div class="content_cover">
-    <img src="{{ photoCover }}" alt="">
-  </div>
-  <div class="content_title">
-    <h1>{{ contentTitle }}</h1>
-    <hr>
-  </div>
-  <div class="content_description">
-    <p>{{ contentDescription }}</p>
-  </div>
+  <article class="container_notice-info">
+    <div class="content_cover">
+      <img src="{{ photoCover }}" alt="" />
+    </div>
+    <div class="container_title-description">
+      <div class="content_title">
+        <h1>{{ contentTitle }}</h1>
+        <hr />
+      </div>
+      <div class="content_description">
+        <p>{{ contentDescription }}</p>
+      </div>
+    </div>
+  </article>
+  <article class="trailer-video">
+    <h2>Trailer do jogo {{ name }}</h2>
+    <hr />
+    <iframe
+      width="560"
+      height="315"
+      [src]="safeTrailerGameUrl"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </article>
 </div>

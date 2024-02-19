@@ -1,10 +1,17 @@
 .container_content {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container_content > .container_notice-info{
+  display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
   width: 100%;
-  height: 90vh;
+  margin: 3rem 0;
 }
 
 .content_cover > img {
@@ -14,6 +21,15 @@
   height: 100%;
 }
 
+.container_content .container_title-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_content > .container_title-description > .content_title > h1 {
+  font-size: 4rem;
+}
+
 .content_description {
   margin-top: 1.5rem;
 }
@@ -21,4 +37,13 @@
 .content_description > p {
   color: rgb(188, 188, 188);
   width: 50rem;
+  text-align: justify;
+}
+
+.trailer-video {
+  margin-bottom: 3rem;
+}
+
+.trailer-video > h2 {
+  font-size: 4rem;
 }

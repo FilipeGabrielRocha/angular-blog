@@ -1,5 +1,4 @@
 .container_small-card {
-  /* width: 40rem; */
   display: flex;
   flex-direction: column;
 }
@@ -16,7 +15,7 @@
 }
 
 .container_small-card > .article-top > a > .title_small-card {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .container_small-card > .article-top > a > .description-photo_small-card {
