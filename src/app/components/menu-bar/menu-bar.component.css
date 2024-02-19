@@ -1,0 +1,4 @@
+.container_menu-bar ul {
+  display: flex;
+  gap: 2rem;
+}

@@ -1,5 +1,12 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
 .articles {
   margin-top: 3rem;
+  gap: 2rem;
   display: flex;
   justify-content: center;
 }

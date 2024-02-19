@@ -3,10 +3,14 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  margin: 0 2rem;
-  max-width: 40rem;
+  max-width: 60rem;
   height: 50rem;
   gap: 1rem;
+}
+
+.container_big-card > .description-photo_big-card {
+  color: gray;
+  font-size: 1.3rem;
 }
 
 .container_big-card .photo_big-card {
