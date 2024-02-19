@@ -1,0 +1,29 @@
+.container_small-card {
+  /* width: 40rem; */
+  display: flex;
+  flex-direction: column;
+}
+
+.container_small-card > .article-top {
+  display: flex;
+  gap: 2rem;
+}
+
+.container_small-card > .article-top > a > .photo_small-card {
+  width: 20rem;
+  height: 100%;
+  border-radius: 1.5rem;
+}
+
+.container_small-card > .article-top > a > .title_small-card {
+  font-size: 4rem;
+}
+
+.container_small-card > .article-top > a > .description-photo_small-card {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.container_small-card > .article-bottom > hr {
+  margin: 3rem 0;
+}

@@ -1,0 +1,27 @@
+.container_big-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* max-width: 50rem; */
+  height: 50rem;
+  gap: 1rem;
+}
+
+.container_big-card > .description-photo_big-card {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.container_big-card .photo_big-card {
+  border-radius: 1.5rem;
+  width: 100%;
+}
+
+.container_big-card > a > .title_big-card {
+  font-size: 4rem;
+}
+
+.container_big-card > a > .descrition_big-card {
+  color: gray;
+}
