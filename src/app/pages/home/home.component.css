@@ -1,9 +1,3 @@
-.header {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
 .articles {
   gap: 2rem;
   display: flex;
